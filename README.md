@@ -2,6 +2,12 @@
 
 Creates backup snapshot for configured JIRA domain.
 
+Could be used to run inside travis jobs, in this case recommended setup would be as follows:
+
+- request to run cron jobs for given repository: https://docs.travis-ci.com/user/cron-jobs/
+- configure scripts in this project to download daily backup of JIRA domain
+- use travis publish feature to upload snapshot file to corresponding datastore (such as Amazon S3)
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -20,7 +26,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+See [HOW_TO_USE.md](HOW_TO_USE.md)
 
 ## Development
 
