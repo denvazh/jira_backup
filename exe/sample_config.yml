@@ -1,0 +1,7 @@
+instance: 'somedomain'
+username: 'someuser'
+password: 'somepassword'
+encryption:
+  cipher: 'aes-256-cbc'
+    key: 'somekey'
+    iv: 'someiv'
